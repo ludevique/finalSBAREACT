@@ -1,0 +1,22 @@
+/*--------------------welcome to my styling page--------------*/
+
+*{
+  margin: 0;
+}
+
+.mynavbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  color: gold;
+
+}
+
+.mynavbar ul{
+  margin: auto;
+  text-decoration: none;
+}
+.mynavbar li:hover{
+  color: white;
+}
