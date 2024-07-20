@@ -1,0 +1,11 @@
+/*------------------------Welcome to my styling place---------------------------------------------------------------*/
+
+*{
+  margin: 0;
+
+}
+.mynavbar{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
