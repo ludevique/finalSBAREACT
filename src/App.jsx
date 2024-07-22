@@ -13,7 +13,7 @@ function App() {
       <Header/>
       <Routes>
           <Route path='/homepage' element={<Homepage/>}/>
-          <Route path='/fanbase' element={<Fanbase/>}/>   
+          <Route path='/fanbase' element={<Fanbase/>}/> 
       </Routes>
       <Footer/>
       

@@ -1,9 +1,8 @@
 import React from 'react'
-
 const Fanbase = () => {
   return (
     <>
-        <p>welcome</p>    
+      <p>name</p>    
     </>
   )
 }
