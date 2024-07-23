@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 const Homepage = () => {
   
   //-----handle function------------------------------------------------------------------------------------------------
@@ -19,7 +20,7 @@ const Homepage = () => {
       </div>
       <Link to='/Fanbase'>
         <button className='button' onClick={HandleOnclick}>
-          Add Team
+          Welcome
         </button>
       </Link>
       
