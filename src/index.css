@@ -7,7 +7,6 @@
 body{
   background-color: goldenrod;
   height: 1200px;
-  width: 1500px;
 }
 
 .mynavbar{
@@ -27,11 +26,11 @@ body{
   color: white;
 }
 
-/* footer{
+ footer{
   background-color: black;
   color: goldenrod;
   margin-top: 100px;
-} */
+} 
 
 h1{
   text-align: center;
@@ -58,11 +57,39 @@ p .About{
 }
 
 .button{
-  width: 90px;
-  height:40px ;
-  margin: auto;
+  width: 130px;
+  height:60px;
+  margin-left: 45%;
+  margin-right: 55%;
   border: 2px solid;
   background-color: black;
   color: bisque;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.button:hover{
+  cursor: pointer;
+  background: linear-gradient(#e66465, #9198e5);
+  color: black;
+}
+
+.button:active{
+  cursor: grab;
+  border-style: dashed; 
+}
+
+button {
+  width: 120px;
+  border: 1px solid;
+  border: none;
+  border-radius: 5px;
+  background-color: aliceblue;
+  color: #e66465;
+  height: 60px;
+  margin-left: 45%;
+  margin-right: 55%;
+  
 }
 

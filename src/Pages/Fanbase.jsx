@@ -35,7 +35,7 @@ import { useState } from "react";
 function Fanbase () {
   const [news, setNews] = useState('');
 
-  let key = import.meta.env.API_KEY
+  let key = import.meta.env.VITE_API_KEY
   let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${key}`
 
   //----using useffect hook to render the data only once-----------------
@@ -54,12 +54,15 @@ function Fanbase () {
     // })
     infoNew()
   }, []);
+
+  //-----------------------handler function-------------------
+  const handleClick = () => {}
   
 
   return (
     <>
-    <h1>FANBASE PAGE</h1>
-      <button>Enter your team</button>
+    <h1>YOUR DAILY TECHCRUNCH</h1>
+      <button onClick={handleClick}>Enter your team</button>
     </>
   );
 };

@@ -11,11 +11,14 @@ const Homepage = () => {
 
   return (
     <div>
-      <h1>welcome fellows Cameroonian and Arsenal fc fans</h1>
+      <h1>welcome to your daily news</h1>
       <div className='About'>
           <p>
-            This simple website is for those who are either indomitable lions of Cameroon or gunners fans.
-            As a big soccer fan, i would like by this page gathered both communities members. 
+            <i>this simple web app help display some current news related to the techcrunch company.
+              In order to know more about just click on the start button and you will get to our main page.
+              Enjoy your lecture and do not forget to take note as it is always important to come out with a clear
+              overview of the topic.
+            </i>
           </p>
       </div>
       <Link to='/Fanbase'>
